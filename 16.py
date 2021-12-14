@@ -25,8 +25,6 @@ for line in lines:
         if "," in line:
             nearbyTickets.append([int(x) for x in line.split(",")])
         
-count = 0
-
 def between(l, x, u):
     return l <= x and x <= u
 
